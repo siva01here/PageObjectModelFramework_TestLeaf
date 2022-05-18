@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="114830" started-at="2022-05-18T14:53:28 IST" finished-at="2022-05-18T14:55:22 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberRunner.TestRunner@543788f3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="114830" started-at="2022-05-18T14:53:28 IST" finished-at="2022-05-18T14:55:22 IST">
+      <class name="cucumberRunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberRunner.TestRunner@543788f3]" name="setUpClass" is-config="true" duration-ms="1263" started-at="2022-05-18T14:53:28 IST" finished-at="2022-05-18T14:53:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2c34402]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:cucumberRunner.TestRunner@543788f3]" name="setUpMethod" is-config="true" duration-ms="4966" started-at="2022-05-18T14:53:29 IST" finished-at="2022-05-18T14:53:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberRunner.TestRunner@543788f3]" name="runScenario" duration-ms="21986" started-at="2022-05-18T14:53:34 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-18T14:53:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify create lead functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Create Lead Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:cucumberRunner.TestRunner@543788f3]" name="tearDown" is-config="true" duration-ms="852" started-at="2022-05-18T14:53:56 IST" finished-at="2022-05-18T14:53:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:cucumberRunner.TestRunner@543788f3]" name="setUpMethod" is-config="true" duration-ms="2462" started-at="2022-05-18T14:53:57 IST" finished-at="2022-05-18T14:53:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberRunner.TestRunner@543788f3]" name="runScenario" duration-ms="10850" started-at="2022-05-18T14:53:59 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-18T14:54:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify create lead functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Create Lead Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:cucumberRunner.TestRunner@543788f3]" name="tearDown" is-config="true" duration-ms="665" started-at="2022-05-18T14:54:10 IST" finished-at="2022-05-18T14:54:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:cucumberRunner.TestRunner@543788f3]" name="setUpMethod" is-config="true" duration-ms="2497" started-at="2022-05-18T14:54:11 IST" finished-at="2022-05-18T14:54:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberRunner.TestRunner@543788f3]" name="runScenario" duration-ms="12459" started-at="2022-05-18T14:54:13 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-18T14:54:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify create lead functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Create Lead Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:cucumberRunner.TestRunner@543788f3]" name="tearDown" is-config="true" duration-ms="7138" started-at="2022-05-18T14:54:26 IST" finished-at="2022-05-18T14:54:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:cucumberRunner.TestRunner@543788f3]" name="setUpMethod" is-config="true" duration-ms="2441" started-at="2022-05-18T14:54:33 IST" finished-at="2022-05-18T14:54:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberRunner.TestRunner@543788f3]" name="runScenario" duration-ms="2410" started-at="2022-05-18T14:54:35 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-18T14:54:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify login functionality with different combinations"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login logout with invalid credentials]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:cucumberRunner.TestRunner@543788f3]" name="tearDown" is-config="true" duration-ms="641" started-at="2022-05-18T14:54:38 IST" finished-at="2022-05-18T14:54:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:cucumberRunner.TestRunner@543788f3]" name="setUpMethod" is-config="true" duration-ms="2442" started-at="2022-05-18T14:54:38 IST" finished-at="2022-05-18T14:54:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberRunner.TestRunner@543788f3]" name="runScenario" duration-ms="2891" started-at="2022-05-18T14:54:41 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-18T14:54:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify login functionality with different combinations"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login logout with invalid credentials]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:cucumberRunner.TestRunner@543788f3]" name="tearDown" is-config="true" duration-ms="663" started-at="2022-05-18T14:54:44 IST" finished-at="2022-05-18T14:54:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:cucumberRunner.TestRunner@543788f3]" name="setUpMethod" is-config="true" duration-ms="2676" started-at="2022-05-18T14:54:44 IST" finished-at="2022-05-18T14:54:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberRunner.TestRunner@543788f3]" name="runScenario" duration-ms="2841" started-at="2022-05-18T14:54:47 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-18T14:54:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify login functionality with different combinations"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login logout with invalid credentials]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:cucumberRunner.TestRunner@543788f3]" name="tearDown" is-config="true" duration-ms="671" started-at="2022-05-18T14:54:50 IST" finished-at="2022-05-18T14:54:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:cucumberRunner.TestRunner@543788f3]" name="setUpMethod" is-config="true" duration-ms="2623" started-at="2022-05-18T14:54:50 IST" finished-at="2022-05-18T14:54:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberRunner.TestRunner@543788f3]" name="runScenario" duration-ms="2421" started-at="2022-05-18T14:54:53 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-18T14:54:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify login functionality with different combinations"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login logout with invalid credentials]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:cucumberRunner.TestRunner@543788f3]" name="tearDown" is-config="true" duration-ms="635" started-at="2022-05-18T14:54:55 IST" finished-at="2022-05-18T14:54:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:cucumberRunner.TestRunner@543788f3]" name="setUpMethod" is-config="true" duration-ms="2312" started-at="2022-05-18T14:54:56 IST" finished-at="2022-05-18T14:54:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberRunner.TestRunner@543788f3]" name="runScenario" duration-ms="3290" started-at="2022-05-18T14:54:58 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-18T14:55:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify login, logout functionalities of the application with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login, Logout feature of application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:cucumberRunner.TestRunner@543788f3]" name="tearDown" is-config="true" duration-ms="797" started-at="2022-05-18T14:55:02 IST" finished-at="2022-05-18T14:55:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:cucumberRunner.TestRunner@543788f3]" name="setUpMethod" is-config="true" duration-ms="2380" started-at="2022-05-18T14:55:03 IST" finished-at="2022-05-18T14:55:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberRunner.TestRunner@543788f3]" name="runScenario" duration-ms="3626" started-at="2022-05-18T14:55:05 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-18T14:55:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify login, logout functionality with multiple valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login, Logout feature of application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:cucumberRunner.TestRunner@543788f3]" name="tearDown" is-config="true" duration-ms="655" started-at="2022-05-18T14:55:09 IST" finished-at="2022-05-18T14:55:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:cucumberRunner.TestRunner@543788f3]" name="setUpMethod" is-config="true" duration-ms="2912" started-at="2022-05-18T14:55:09 IST" finished-at="2022-05-18T14:55:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberRunner.TestRunner@543788f3]" name="runScenario" duration-ms="2730" started-at="2022-05-18T14:55:12 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-18T14:55:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify login, logout functionality with multiple valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login, Logout feature of application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:cucumberRunner.TestRunner@543788f3]" name="tearDown" is-config="true" duration-ms="782" started-at="2022-05-18T14:55:15 IST" finished-at="2022-05-18T14:55:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberRunner.TestRunner@543788f3]" name="tearDownClass" is-config="true" duration-ms="6742" started-at="2022-05-18T14:55:16 IST" finished-at="2022-05-18T14:55:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberRunner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
